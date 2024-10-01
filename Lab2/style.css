@@ -39,38 +39,76 @@ body {
     background-color: white;
 }
 
-.tooth1 {
+/* position */
+.position-gear .tooth1 {
     top: -13px;
     left: 40%;
     transform: translateX(-50%);
 }
 
-.tooth2 {
+.position-gear .tooth2 {
     top: 82%;
     left: 6px;
     transform: translateY(-50%);
 }
 
-.tooth3 {
+.position-gear .tooth3 {
     top: 58%;
     right: -11px;
     transform: translateY(-50%);
 }
 
-.tooth4 {
+.position-gear .tooth4 {
     bottom: -3px;
     left: 67%;
     transform: translateX(-50%);
 }
 
-.tooth5 {
+.position-gear .tooth5 {
     top: 35px;
     left: -8px;
     transform: rotate(45deg);
 }
 
-.tooth6 {
+.position-gear .tooth6 {
     top: 2px;
     right: 5px;
     transform: rotate(-45deg);
+}
+
+/* transform */
+.transform-gear .tooth1 {
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+.transform-gear .tooth2 {
+    top: 35%;
+    left: 0;
+    transform: translateY(-50%) rotate(60deg);
+}
+
+.transform-gear .tooth3 {
+    top: 50%;
+    right: 0;
+    transform: translateY(-7%) rotate(120deg);
+}
+
+.transform-gear .tooth4 {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-23%, 21%) rotate(180deg);
+}
+
+.transform-gear .tooth5 {
+    top: 0;
+    right: 0;
+    transform: translate(-5%, 50%) rotate(240deg);
+}
+
+.transform-gear .tooth6 {
+    bottom: 0;
+    left: 0;
+    transform: translate(15%, -25%) rotate(300deg);
 }

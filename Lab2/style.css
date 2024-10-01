@@ -1,0 +1,76 @@
+body {
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+}
+
+.gear-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    padding-top: 100px;
+}
+
+.gear {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.hole {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.tooth {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.tooth1 {
+    top: -13px;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.tooth2 {
+    top: 82%;
+    left: 6px;
+    transform: translateY(-50%);
+}
+
+.tooth3 {
+    top: 58%;
+    right: -11px;
+    transform: translateY(-50%);
+}
+
+.tooth4 {
+    bottom: -3px;
+    left: 67%;
+    transform: translateX(-50%);
+}
+
+.tooth5 {
+    top: 35px;
+    left: -8px;
+    transform: rotate(45deg);
+}
+
+.tooth6 {
+    top: 2px;
+    right: 5px;
+    transform: rotate(-45deg);
+}

@@ -1,0 +1,9 @@
+.image-buttons {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+}
